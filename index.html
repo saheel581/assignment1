@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Galaxy Explorers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #1e2a38;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ddd;
+      font-size: 14px;
+    }
+
+    .nav-links a:hover {
+      color: #fff;
+    }
+
+    .content {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .description {
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      width: 30%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      border-radius: 8px;
+    }
+
+    .card h4 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Galaxy Explorers</div>
+  <div class="nav-links">
+    <a href="#">Missions</a>
+    <a href="#">Join Us</a>
+    <a href="#">Log In</a>
+  </div>
+</header>
+
+<div class="content">
+  <div class="description">
+    <p>
+      Welcome to Galaxy Explorers, where adventure meets the stars! Our team is dedicated to exploring the mysteries of the cosmos — from nearby planets to distant galaxies.
+      Whether you're a seasoned stargazer or just getting started, there's a universe of discovery waiting for you.
+    </p>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <h4>🌌 Mission to Andromeda</h4>
+      <p>Our latest simulation explores the feasibility of human travel to our nearest galaxy neighbor. Includes propulsion strategies and life-support logistics.</p>
+    </div>
+    <div class="card">
+      <h4>🛰️ Satellite Tracker</h4>
+      <p>Track real-time positions of major satellites orbiting Earth and learn how they support communication, weather forecasting, and defense systems.</p>
+    </div>
+    <div class="card">
+      <h4>🌍 Earth-like Exoplanets</h4>
+      <p>Discover planets beyond our solar system that could potentially harbor life. Learn about Kepler-452b, Proxima b, and other exciting finds.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
